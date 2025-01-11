@@ -11,7 +11,7 @@ body{
 
 /* shared-styles */
 .description-styles{
-    font-size: 20px;
+    font-size: 16px;
     /* to looks good i increaced the font size from 16px to 20px.  */
     font-weight: 400;
     color: #0E0E0E;
@@ -172,13 +172,73 @@ body{
     margin: 32px 0px 0px;
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
-    background-position-y: +17px;
+    background-position-y: +15px;
     background-position-x: +24px;
     /* background-position: center left; */
 }
 .footer-title{
-    font-size: 24px;
+    font-size: 20px;
     /* to looks good i changed the font size from 20 to 24, because i increased the font size of description 4px also. */
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
+}
+/* newa-sec-styles */
+.news-sec{
+    margin: 0 160px;
+}
+.news-items{
+    margin: 24px 0;
+}
+.news-box-1{
+    display: flex;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    align-items: center;
+    border: none;
+    border-radius: 24px;
+}
+.news-box-2{
+    display: flex;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    align-items: center;
+    border: none;
+    border-radius: 24px;
+}
+.news-box-3{
+    display: flex;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    align-items: center;
+    border: none;
+    border-radius: 24px;
+}
+.news-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.news-img{
+    padding: 48px;
+}
+.news{
+    padding: 56px 48px;
+}
+.news>h1{
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.news-image{
+    border-radius: 24px;
+}
+.news-btn{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #006A50;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
 }
