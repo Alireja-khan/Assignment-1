@@ -331,3 +331,56 @@ body{
 .donate-input{
     text-align: center;
 }
+/* newsletter-sec-styles */
+.newsletter-sec{
+    display: block;
+    margin: auto;
+    width: 1280px;
+    height: 395px;
+    text-align: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.newsletter-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    padding-top: 80px;
+    margin-bottom: 0;
+}
+.newsletter-description{
+    width: 622px;
+    height: 48px;
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+}
+.email{
+    width: 600px;
+    height: 55px;
+    font-size: 16px;
+    padding-left: 40px;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-top: 24px;
+}
+.subscribe-btn{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: 24px;
+}
+.newsletter-bottom-description{
+    margin-top: 24px;
+}
+.newsletter-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
