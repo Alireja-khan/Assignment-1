@@ -172,14 +172,13 @@ body{
     background-repeat: no-repeat;
     background-position-y: +15px;
     background-position-x: +24px;
-    /* background-position: center left; */
 }
-.footer-title{
+.vision-title{
     font-size: 20px;
     font-weight: 700;
-    color: rgba(14, 14, 14, 0.8);
+    color: #0E0E0E;
+    opacity: 80%;
 }
-/* newa-sec-styles */
 .news-sec{
     margin: 0 160px;
 }
