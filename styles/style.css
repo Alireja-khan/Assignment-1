@@ -384,3 +384,36 @@ body{
     justify-content: center;
     align-items: center;
 }
+/* footer-sec-styles */
+.footer-sec{
+    margin-top: 80px;
+    text-align: center;
+    align-items: center;
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    padding-top: 50px;
+    padding-left: 689px;
+    padding-right: 689px;
+}
+#line{
+    width: 1122px;
+    color: #0E0E0E;
+    opacity: 40%;
+}
+#img-fb{
+    padding-right: 23px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+#img-insta{
+    padding-right: 23px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+#img-x{
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
