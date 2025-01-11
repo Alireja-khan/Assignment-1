@@ -12,7 +12,6 @@ body{
 /* shared-styles */
 .description-styles{
     font-size: 16px;
-    /* to looks good i increaced the font size from 16px to 20px.  */
     font-weight: 400;
     color: #0E0E0E;
     opacity: 70%;
@@ -177,7 +176,6 @@ body{
 }
 .footer-title{
     font-size: 20px;
-    /* to looks good i changed the font size from 20 to 24, because i increased the font size of description 4px also. */
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
 }
@@ -240,4 +238,96 @@ body{
     padding: 13px 26px;
     border: none;
     border-radius: 8px;
+}
+
+/* donate-sec-styles */
+.donate-sec{
+    margin: 80px 160px;
+}
+.donate-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    text-align: center;
+}
+.donate-description{
+    display: block;
+    margin: auto;
+    margin-bottom: 32px;
+    text-align: center;
+    width: 1104px;
+}
+.donate-option{
+    display: flex;
+    justify-content: center;
+}
+.donate-100{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: #FFFFFF;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px 40px;
+    margin-right: 24px;
+}
+.donate-200{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: #C6E4D6;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px 40px;
+    margin-right: 24px;
+}
+.donate-500{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: #FFFFFF;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px 40px;
+    margin-right: 24px;
+}
+.donate-1000{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: #FFFFFF;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px 40px;
+}
+.donate-amount{
+    width: 1032px;
+    height: 64px;
+    margin-top: 32px;
+    border: none;
+    border-bottom: rgba(14, 14, 14, 0.15) 2px solid;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;  
+}
+::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+}
+.donate-box{
+    align-items: center;
+}
+.donate-btn{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #006A50;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 32px;
+}
+.donate-input{
+    text-align: center;
 }
