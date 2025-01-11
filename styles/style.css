@@ -10,7 +10,13 @@ body{
 }
 
 /* shared-styles */
-
+.description-styles{
+    font-size: 20px;
+    /* to looks good i increaced the font size from 16px to 20px.  */
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+}
 
 /* nav-styles */
 .nav-bar{
@@ -87,13 +93,7 @@ body{
     color: #0E0E0E;
     opacity: 80%;
 }
-.pillers-item-description{
-    font-size: 20px;
-    /* to looks good i increaced the font size from 16px to 20px.  */
-    font-weight: 400;
-    color: #0E0E0E;
-    opacity: 70%;
-}
+
 .pillers-item{
     background-color: #FFFFFF;
     border: 2px solid rgba(14, 14, 14, 0.15);
@@ -111,4 +111,74 @@ body{
 /* vision-sec-styles */
 .vision-sec{
     margin: 80px 160px;
+}
+.vision-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.vision-item-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%
+}
+.vision-item-btn{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+}
+.btn-1{
+    background-color: #5490F5;
+}
+.btn-2{
+    background-color: #09A15C;
+}
+.btn-3{
+    background-color: #FFC239;
+}
+.vision-item-sec{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.vision-item-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    width: 410.67px;
+    padding: 32px 24px;
+}
+.vision-item-2{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    width: 410.67px;
+    padding: 32px 24px;
+}
+.vision-item-3{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    width: 410.67px;
+    padding: 32px 24px;
+    
+}
+.vision-footer{
+    background-color: #FFFFFF;
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 32px 0px 0px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: +17px;
+    background-position-x: +24px;
+    /* background-position: center left; */
+}
+.footer-title{
+    font-size: 24px;
+    /* to looks good i changed the font size from 20 to 24, because i increased the font size of description 4px also. */
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
 }
