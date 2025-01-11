@@ -74,14 +74,12 @@ body{
 /* piller-styles */
 .pillars-sec{
     margin: 80px 160px;
-    justify-items: ;
 
 }
 .pillers-title{
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
-    text-align: left;
 }
 .pillers-item-title{
     font-size: 20px;
@@ -108,4 +106,9 @@ body{
 .pillers-items{
     display: flex;
     justify-content: space-between;
+}
+
+/* vision-sec-styles */
+.vision-sec{
+    margin: 80px 160px;
 }
